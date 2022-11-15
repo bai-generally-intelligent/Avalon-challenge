@@ -35,6 +35,7 @@ challenge_phases:
     codename: minival
     max_submissions_per_day: 100
     max_submissions_per_month: 3000
+    max_submissions: 9999
     default_submission_meta_attributes:
       - name: method_name
         is_visible: True
@@ -58,6 +59,7 @@ challenge_phases:
     codename: public_test
     max_submissions_per_day: 10
     max_submissions_per_month: 300
+    max_submissions: 999
     default_submission_meta_attributes:
       - name: method_name
         is_visible: True
@@ -79,6 +81,8 @@ challenge_phases:
     start_date: 2022-01-01 00:00:00
     end_date: 2099-12-31 23:59:59
     codename: private_test
+    max_submissions_per_day: 5
+    max_submissions_per_month: 5
     max_submissions: 5
     default_submission_meta_attributes:
       - name: method_name
