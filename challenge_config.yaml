@@ -33,6 +33,7 @@ challenge_phases:
     start_date: 2022-01-01 00:00:00
     end_date: 2099-12-31 23:59:59
     codename: minival
+    slug: avalon-minival
     max_submissions_per_day: 100
     max_submissions_per_month: 3000
     max_submissions: 9999
@@ -57,6 +58,7 @@ challenge_phases:
     start_date: 2022-01-01 00:00:00
     end_date: 2099-12-31 23:59:59
     codename: public_test
+    slug: avalon-public-test
     max_submissions_per_day: 10
     max_submissions_per_month: 300
     max_submissions: 999
@@ -81,6 +83,7 @@ challenge_phases:
     start_date: 2022-01-01 00:00:00
     end_date: 2099-12-31 23:59:59
     codename: private_test
+    slug: avalon-private-test
     max_submissions_per_day: 5
     max_submissions_per_month: 5
     max_submissions: 5
